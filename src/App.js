@@ -3,6 +3,7 @@ import Landing from "./components/Landing";
 import Services from "./components/Services";
 import Advantages from "./components/Advantages";
 import Photogallery from "./components/Photogallery";
+import Footer from "./components/Footer";
 import "./App.scss";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Advantages />
       <Photogallery />
+      <Footer />
 
       {/* <div class="container">
          <Services/>  

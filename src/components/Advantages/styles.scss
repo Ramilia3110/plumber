@@ -5,12 +5,13 @@
   h2 {
     padding-bottom: 5rem;
     font-size: var(--big-font-size);
+    font-weight: 700;
   }
 }
 .advantages-container {
   width: 80%;
   margin: 0 auto;
-  padding: 5rem 0;
+  padding: 7rem 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -30,8 +31,8 @@
   padding: 2rem;
 
   .advantages-img {
-    width: 5rem;
-    height: 5rem;
+    width: 4.5rem;
+    height: 4.5rem;
     img {
       width: 100%;
       object-fit: cover;

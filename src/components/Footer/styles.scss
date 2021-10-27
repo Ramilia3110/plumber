@@ -1,7 +1,6 @@
 .footer {
-  background: #000;
-
-  color: #fff;
+  color: var(--first-color);
+  background-color: #eaebec;
 }
 .contact-us {
   padding: 1.5rem 0 2rem 0;
@@ -13,19 +12,24 @@
   flex-direction: column;
 }
 .contact-us h4 {
-  padding-bottom: 1.1rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.6rem;
 }
 .social-media-links a {
-  padding: 1rem 0.7rem 0 1rem;
+  padding: 1rem 2rem 0 0;
 }
-.social-media-links a:hover {
-  background: rgba(255, 255, 255, 0.18);
-}
+
 .social {
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
 }
+.social:hover {
+  transform: scale(1.5);
+  transition: 0.5s ease-in-out;
+}
+
 p {
   text-align: center;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
+  font-weight: 500;
 }
