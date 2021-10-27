@@ -1,0 +1,31 @@
+.footer {
+  background: #000;
+
+  color: #fff;
+}
+.contact-us {
+  padding: 1.5rem 0 2rem 0;
+  font-size: 1.2rem;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.contact-us h4 {
+  padding-bottom: 1.1rem;
+}
+.social-media-links a {
+  padding: 1rem 0.7rem 0 1rem;
+}
+.social-media-links a:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+.social {
+  width: 2rem;
+  height: 2rem;
+}
+p {
+  text-align: center;
+  padding-bottom: 1rem;
+}
