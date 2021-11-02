@@ -4,6 +4,7 @@ import Services from "./components/Services";
 import Advantages from "./components/Advantages";
 import Photogallery from "./components/Photogallery";
 import Footer from "./components/Footer";
+import Reviews from "./components/Reviews";
 import "./App.scss";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Landing />
       <Services />
       <Hero />
+      <Reviews />
       <Advantages />
       <Photogallery />
       <Footer />
